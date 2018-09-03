@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Landing Page</title>
+	<style>
+		body{
+			font-family: 'PT Sans', sans-serif;
+			margin: 0;
+		}
+		header{
+			background: url("images/bg.jpeg") no-repeat center / cover transparent;
+			padding: 0 0;
+		}
+		.container{
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 30px;
+			color: white;
+		}
+		.container .title {
+			font-size: 2rem;
+		}
+		h1{
+			margin-top: 0;
+		}
+		nav.nav{
+			float: right;
+			color: #7D7D7D;
+			text-decoration: none;
+		}
+		nav.nav li{
+			font-size: 12px;
+			padding: 10px;
+			list-style: none;
+			display: inline-block;
+		}
+		.logo-desafio {
+			width: 120px;
+			margin-top: 30px;
+		}
+		.logo-desafio img {
+			width: inherit;
+		}
+		.container .text {
+			text-align: center;
+		}
+		.container p{
+			bottom: 0;
+			font-size: 12px;
+			margin-top: 20px;
+			margin-bottom: 0;
+		}
+		.boton{
+			text-decoration: none;
+			background: #4caf50;
+			padding: 7px 10px;
+			border-radius: 5px;
+			color: white;
+			border: none;
+		}
+		.blue{
+			background-color: #0068A3;
+		}
+		.caja1{
+			margin-top: 50px;
+			text-align: center;
+		}
+		.h3{
+			margin: 0;
+			font-size: 16px;
+		}
+		h2{
+			font-size: 20px;
+		}
+		.personas{
+			width: 300px;
+		}
+		.caja2{
+			padding-top: 50px;
+			padding-bottom: 50px;
+			background-color: #F3F3F3;
+			text-align: center;
+			border-top: solid silver 1px;
+			border-bottom: solid silver 1px;
+		}
+		.caja3{
+			padding-top: 50px;
+			padding-bottom: 0;
+			width: 50%;
+			float: left;
+		}
+		.caja4{
+			padding-top: 50px;
+			padding-bottom: 50px;
+			width: 50%;
+			float: right;
+		}
+		.contacto{
+			text-align: left;
+			padding-left: 35%;
+		}
+		.contacto li{
+			list-style: none;
+			text-decoration: none;
+		}
+		.formulario{
+			text-align: left;
+			padding-left: 0;
+		}
+		.formulario li{
+			list-style: none;
+			text-decoration: none;
+		}
+		footer{
+			clear:both;
+			color: white;
+			background-color: #303030;
+			text-align: left;
+			padding-left: 70px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav class="nav">
+				<li>Equipo</li>
+				<li>Blog</li>
+				<li>Contacto</li>
+			</nav>
+			<h1>
+				<a class="logo-desafio" href="landing_page.html">
+					<img src="images/latam_logo.png" alt="logo_desafio">
+				</a>
+			</h1>
+			<div class="text">
+				<h2 class="title">COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
+				
+				<a href="#" class="boton blue">¡Comienza acá!</a>
+				<a href="#" class="boton green">Más info</a>
+				<p>Hay una escacez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más<br>
+				desarrolladores y Tú puedes ser uno!</p>
+			</div>
+		</div>
+	</header>
+	<div class="caja1">
+		<h3 class="h3">EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eos delectus <br>
+		ad excepturi aliquam voluptas, eum omnis unde explicabo fugit facilis.</p>
+		<img src="images/viewing-gallery-for-happy-people.png" alt="personas" class="personas">
+	</div>
+	<div class="caja2">
+		<h3 class="h3">SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eos delectus <br>
+		ad excepturi aliquam voluptas, eum omnis unde explicabo fugit facilis.</p>
+		<a href="#" class="boton blue">¡Inscríbete!</a>
+		<p>¡Vive la experiencia Desafío Latam!</p>
+	</div>
+	<div class="caja3">
+		<ul class="contacto">
+			<h2>Contacto</h2>
+			<li>Desafío Latam</li>
+			<li>Ezquias Allende 2360</li>
+			<li>P +56 9 5117 7975</li>
+			<a href="#">inscripciones@desafiolatam.com</a>
+		</ul>
+	</div>
+	<div class="caja4">
+		<ul class="formulario">
+			<h2>Suscríbete</h2>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+		</ul>
+		<form action="/action_page.php">
+			<input type="text" value="Ingresa tu mail"> <br>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	<footer>
+		<p>DESAFÍO LATAM 2016 - CURSO FULLSTACK G5</p>
+	</footer>
+</body>
+</html>
